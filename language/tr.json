@@ -1,12 +1,12 @@
 {
   "semantics":[
     {
-      "label":"Background image",
-      "description":"Image shown on background."
+      "label":"Arka plan resmi",
+      "description":"Arka planda gösterilen resim."
     },
     {
-      "label":"Hotspot color",
-      "description":"The color of the hotspots",
+      "label":"Alan rengi",
+      "description":"İşaretleme alanlarının rengi",
       "default":"#981d99",
       "spectrum":{
         
@@ -14,13 +14,13 @@
     },
     {
       "entity":"hotspot",
-      "label":"Hotspots",
+      "label":"İşaretleme Alanları",
       "field":{
-        "label":"Hotspot",
+        "label":"İşaretleme Alanı",
         "fields":[
           {
-            "label":"Hotspot position",
-            "description":"Click on the thumbnail image to place the hotspot",
+            "label":"Alan konumu",
+            "description":"Alanı yerleştirmek için resim üzerinde tıklayın",
             "fields":[
               {
                 
@@ -31,17 +31,17 @@
             ]
           },
           {
-            "label":"Cover entire background image",
-            "description":"When the user clicks the hotspot the popup will cover the entire background image"
+            "label":"Arka plan resminin tümünü kapla",
+            "description":"Kullanıcı alanı tıklayınca açılır pencere arka plan resminin tümünü kaplar"
           },
           {
-            "label":"Header",
-            "description":"Optional header for the popup"
+            "label":"Başlık",
+            "description":"İstenirse, açılır pencere için başlık"
           },
           {
-            "label":"Popup content",
+            "label":"Açılır pencere içeriği",
             "field":{
-              "label":"Content Item"
+              "label":"İçerik unsuru"
             }
           }
         ]
